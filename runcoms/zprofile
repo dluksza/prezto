@@ -74,3 +74,7 @@ fi
 export PATH="$HOME/fvm/default/bin":"$PATH"
 
 export ANDROID_NDK_HOME="/opt/homebrew/share/android-ndk"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
